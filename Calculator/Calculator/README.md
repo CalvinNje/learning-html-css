@@ -2,7 +2,7 @@
 # Simple Math Calculator
 
 * With basic operators
-* to run the program `python3 calculator.py`
+* to run the program `python3 main.py`
 
 # MATH OPERATORS
 
