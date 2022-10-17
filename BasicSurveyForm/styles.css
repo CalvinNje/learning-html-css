@@ -1,0 +1,70 @@
+body {
+  font-family: "monospace";
+  font-size: 1.1rem;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  padding: 0px;
+  padding-top: 25px; 
+}
+p {
+  text-align: center;
+  padding-bottom: 25px;
+  margin-top: -5px;
+}
+
+form {
+  background-color: #5559AA;
+  /* opacity: 100%; */
+  color: #ffffff;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.personal {
+  display: block;
+  margin: 0.5rem;
+  padding-top: 0.4em;
+}
+
+.personal-input {
+  display: block;
+  margin-top: 3px;
+  width: auto;
+  height: 23px;
+}
+
+.status {
+  display: block;
+  margin: 0.5rem;
+  margin-bottom: 15px;
+}
+
+.gender {
+  display: block;
+  margin: 0.5rem;
+  margin-top: 5px;
+}
+
+.languages {
+  display: block;
+  margin: 0.5rem;
+}
+
+.textfield {
+  height: 60px;
+}
+
+input[type="submit"] {
+  margin: 0.5rem;
+  background-color: #AAA655;
+  border: 1px solid #AAA655;
+  color: white;
+}

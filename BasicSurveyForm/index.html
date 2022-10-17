@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for partaking in the survey</p>
+
+    <form id="survey-form">
+      <!-- Personal Details -->
+      <label id="name-label" class="personal">Name<input id="name" type="text" required placeholder="Enter your name" class="personal-input"/></label>
+      <label id="email-label" class="personal">Email<input id="email" type="email" required placeholder="Enter your email" class="personal-input"/></label>
+      <label id="number-label" class="personal">Age(Optional)<input id="number" type="number" min="18" max="64" placeholder="Please specify age" class="personal-input"></label>
+      
+      <label class="status">Select your current role:
+       <select id="dropdown">
+        <option>Student</option>
+        <option>Employed(Full-time)</option>
+        <option>Employed(Part-time)</option>
+        <option>Unemployed</option>
+       </select>
+      </label>
+
+      <label class="gender">Specify your gender:</label>
+      <label for="female" class="gender"><input type="radio" name="male-female" value="female"
+id="female"
+class="checks"/>Male</label>
+      <label for="male" class="gender"><input type="radio" name="male-female" value="male" 
+id="male"
+class="checks"/>female</label>
+
+      <!-- Checkboxes -->
+      <label class="languages">Languages used:</label>
+      <label class="languages"><input type="checkbox" value="python">Python</label>
+      <label class="languages"><input type="checkbox" value="java"/>Java</label>
+      <label class="languages"><input type="checkbox" value="c++"/>C++</label>
+      <label class="languages"><input type="checkbox" value="swift"/>Swift</label>
+      <!-- TextArea -->
+      <label class="languages">Write about your projects and experience</label>
+      <textarea class="languages textfield"></textarea>
+      <!-- Submit button -->
+      <input type="Submit" id="submit"/>
+
+    </form>
+  
+  
+  </body>
+  
+  
+</html>
